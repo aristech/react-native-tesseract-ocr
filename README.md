@@ -18,6 +18,10 @@ or
 
 *Don't forget to ...*
 - *add [v3.04 trained data files](https://github.com/tesseract-ocr/tessdata/tree/3.04.00) to the appropriate folder*
+- *add on android/build.gradle
+  `... 
+  implementation 'com.android.support:multidex:1.1.0' // use latest version
+  ...`
 - *install [CocoaPods](https://cocoapods.org/) in your react-native project and add the following line to your Podfile then run `pod install` __(iOS only)__*
    ```
    pod 'TesseractOCRiOS', '4.0.0'
